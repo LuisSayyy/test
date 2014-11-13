@@ -1,0 +1,121 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#fffff1c3">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="juanapp.example.com.kaligtasannijuan.fAfterFlood$PlaceholderFragment">
+
+    <TextView
+        android:text="After a Flood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aFlood_title"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Listen for news reports to learn whether the community&apos;s water supply is safe to drink."
+        android:id="@+id/aFlood_tip1"
+        android:layout_below="@+id/aFlood_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Avoid floodwaters; water may be contaminated by oil, gasoline, or raw sewage. Water may also be electrically charged from underground or downed power lines. Avoid moving water."
+        android:id="@+id/aFlood_tip2"
+        android:layout_below="@+id/aFlood_tip1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Be aware of areas where floodwaters have receded. Roads may have weakened and could collapse under the weight of a car."
+        android:id="@+id/aFlood_tip3"
+        android:layout_below="@+id/aFlood_tip2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Stay away from downed power lines, and report them to the power company."
+        android:id="@+id/aFlood_tip4"
+        android:layout_marginTop="21dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/aFlood_tip3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Return home only when authorities indicate it is safe. Stay out of any building if it is surrounded by floodwaters."
+        android:id="@+id/aFlood_tip5"
+        android:layout_below="@+id/aFlood_tip4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Service damaged septic tanks, cesspools, pits, and leaching systems as soon as possible. Damaged sewage systems are serious health hazards."
+        android:id="@+id/aFlood_tip6"
+        android:layout_below="@+id/aFlood_tip5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Clean and disinfect everything that got wet. Mud left from floodwater can contain sewage and chemicals."
+        android:id="@+id/aFlood_tip7"
+        android:textSize="20dp"
+        android:layout_below="@+id/aFlood_tip6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aFlood_source"
+        android:layout_gravity="bottom"
+        android:layout_below="@+id/aFlood_tip7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/source"
+        android:id="@+id/aFlood_sourceReal"
+        android:layout_below="@+id/aFlood_source"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp" />
+
+</RelativeLayout>
+</ScrollView>

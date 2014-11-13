@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#fffff1c3">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="juanapp.example.com.kaligtasannijuan.Flood$PlaceholderFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Before a Flood"
+        android:id="@+id/txtFOne"
+        android:clickable="true"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:onClick="goToFOne"
+        android:layout_below="@+id/txtGuide"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff435dff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="When a Flood is Imminent"
+        android:id="@+id/txtVTwo"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:onClick="goToFTwo"
+        android:layout_below="@+id/txtFOne"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:textColor="#ff435dff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Flood"
+        android:id="@+id/txtVTitle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="    Flood happens when heavy rain strucks a certain place that is either on low ground or has a clogged drainage system"
+        android:id="@+id/textView"
+        android:layout_below="@+id/txtVTitle"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Guidelines:"
+        android:id="@+id/txtGuide"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp"
+        android:textSize="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="During a Flood"
+        android:id="@+id/txtFThree"
+        android:layout_marginTop="26dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/txtVTwo"
+        android:layout_alignLeft="@+id/txtFOne"
+        android:layout_alignStart="@+id/txtFOne"
+        android:clickable="true"
+        android:onClick="goToFThree"
+        android:textColor="#ff435dff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="After a Flood"
+        android:id="@+id/txtFFour"
+        android:layout_marginTop="27dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/txtFThree"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="goToFFour"
+        android:textColor="#ff435dff" />
+
+</RelativeLayout>
+</ScrollView>

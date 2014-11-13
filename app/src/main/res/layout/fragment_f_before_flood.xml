@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#fffff1c3">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="juanapp.example.com.kaligtasannijuan.fBeforeFlood$PlaceholderFragment">
+
+    <TextView
+        android:text="Before a Flood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bFlood_title"
+        android:textSize="30dp"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Avoid building in a floodplain."
+        android:id="@+id/bFlood_tip1"
+        android:layout_marginTop="22dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/bFlood_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Construct barriers (levees, beams, floodwalls) to stop floodwater from entering your home."
+        android:id="@+id/bFlood_tip2"
+        android:layout_marginTop="23dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/bFlood_tip1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Seal walls in basements with waterproofing compounds to avoid seepage."
+        android:id="@+id/bFlood_tip3"
+        android:layout_below="@+id/bFlood_tip2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- If a flood is likely in your area, listen to the radio or television for information."
+        android:id="@+id/bFlood_tip4"
+        android:layout_below="@+id/bFlood_tip3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Know the difference between a flood watch and a flood warning. A watch means flooding is possible. A warning meansflooding is occurring or will occur soon."
+        android:id="@+id/bFlood_tip5"
+        android:singleLine="false"
+        android:textSize="20dp"
+        android:layout_below="@+id/bFlood_tip4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/source"
+        android:id="@+id/bFlood_source"
+        android:layout_below="@+id/bFlood_tip5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:textSize="15dp" />
+
+</RelativeLayout>
+</ScrollView>

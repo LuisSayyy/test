@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#fffff1c3">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="juanapp.example.com.kaligtasannijuan.tSafetyTips$PlaceholderFragment">
+
+    <TextView
+        android:text="Tsunami Safety Tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tsunami_title"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- When in coastal areas, stay alert for tsunami warnings."
+        android:id="@+id/tsunami_tip1"
+        android:layout_below="@+id/tsunami_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Plan an evacuation route that leads to higher ground."
+        android:id="@+id/tsunami_tip2"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/tsunami_tip1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Know the warning signs of a tsunami: rapidly rising or falling coastal waters and rumblings of an offshore earthquake."
+        android:id="@+id/tsunami_tip3"
+        android:layout_below="@+id/tsunami_tip2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Never stay near shore to watch a tsunami come in."
+        android:id="@+id/tsunami_tip4"
+        android:layout_below="@+id/tsunami_tip3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- A tsunami is a series of waves. Do not return to an affected coastal area until authorities say it is safe."
+        android:id="@+id/tsunami_tip5"
+        android:layout_below="@+id/tsunami_tip4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/source"
+        android:id="@+id/tsunami_source"
+        android:layout_below="@+id/tsunami_tip5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"
+        android:textSize="15dp" />
+
+</RelativeLayout>
+</ScrollView>

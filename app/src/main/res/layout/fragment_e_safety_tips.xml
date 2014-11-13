@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#fffff1c3">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="juanapp.example.com.kaligtasannijuan.eSafetyTips$PlaceholderFragment">
+
+    <TextView
+        android:text="Earthquake Safety Tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eSafetyTips_title"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Have an earthquake readiness plan."
+        android:id="@+id/eSafetyTips_tip1"
+        android:layout_below="@+id/eSafetyTips_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Consult a professional to learn how to make your home sturdier, such as bolting bookcases to wall studs, installing strong latches on cupboards, and strapping the water heater to wall studs."
+        android:id="@+id/eSafetyTips_tip2"
+        android:layout_below="@+id/eSafetyTips_tip1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Keep a supply of canned food, an up-to-date first aid kit, 3 gallons (11.4 liters) of water per person, dust masks and goggles, and a working battery-operated radio and flashlights."
+        android:id="@+id/eSafetyTips_tip3"
+        android:layout_below="@+id/eSafetyTips_tip2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/source"
+        android:id="@+id/eSafetyTips_source"
+        android:layout_below="@+id/eSafetyTips3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Know how to turn off your gas and water mains."
+        android:id="@+id/eSafetyTips3"
+        android:textSize="20dp"
+        android:layout_below="@+id/eSafetyTips_tip3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+</RelativeLayout>
+</ScrollView>

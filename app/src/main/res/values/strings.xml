@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Para Sa Kaligtasan Ni Juan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="title_activity_earthquake">Earthquake</string>
+    <string name="title_activity_flood">Flood</string>
+    <string name="title_activity_tsunami">Tsunami</string>
+    <string name="title_activity_volcano">Volcano</string>
+    <string name="title_activity_e_safety_tips">Earthquake Safety Tips</string>
+    <string name="title_activity_e_shaking">If Shaking Begins</string>
+    <string name="title_activity_f_before_flood">Before a Flood</string>
+    <string name="title_activity_f_when_flood">When a Flood is Imminent</string>
+    <string name="title_activity_f_during_flood">During a Flood</string>
+    <string name="title_activity_f_after_flood">After a Flood</string>
+    <string name="title_activity_t_safety_tips">Tsunami Safety Tips</string>
+    <string name="title_activity_v_safety_tips">Volcanic Eruption Safety Tips</string>
+    <string name="title_activity_v_erupt">If a Volcano Erupts in Your Area</string>
+    <string name="source">Source: National Geographic</string>
+
+</resources>

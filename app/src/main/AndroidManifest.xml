@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="juanapp.example.com.kaligtasannijuan" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_pic"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Earthquake"
+            android:label="@string/title_activity_earthquake"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.MainMenu" />
+        </activity>
+        <activity
+            android:name=".Flood"
+            android:label="@string/title_activity_flood"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.MainMenu" />
+        </activity>
+        <activity
+            android:name=".Tsunami"
+            android:label="@string/title_activity_tsunami"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.MainMenu" />
+        </activity>
+        <activity
+            android:name=".Volcano"
+            android:label="@string/title_activity_volcano"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.MainMenu" />
+        </activity>
+        <activity
+            android:name=".eSafetyTips"
+            android:label="@string/title_activity_e_safety_tips"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.Earthquake" />
+        </activity>
+        <activity
+            android:name=".eShaking"
+            android:label="@string/title_activity_e_shaking"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.Earthquake" />
+        </activity>
+        <activity
+            android:name=".fBeforeFlood"
+            android:label="@string/title_activity_f_before_flood"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.Flood" />
+        </activity>
+        <activity
+            android:name=".fWhenFlood"
+            android:label="@string/title_activity_f_when_flood"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.Flood" />
+        </activity>
+        <activity
+            android:name=".fDuringFlood"
+            android:label="@string/title_activity_f_during_flood"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.Flood" />
+        </activity>
+        <activity
+            android:name=".fAfterFlood"
+            android:label="@string/title_activity_f_after_flood"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.Flood" />
+        </activity>
+        <activity
+            android:name=".tSafetyTips"
+            android:label="@string/title_activity_t_safety_tips"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.Tsunami" />
+        </activity>
+        <activity
+            android:name=".vSafetyTips"
+            android:label="@string/title_activity_v_safety_tips"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.Volcano" />
+        </activity>
+        <activity
+            android:name=".vErupt"
+            android:label="@string/title_activity_v_erupt"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juanapp.example.com.kaligtasannijuan.Volcano" />
+        </activity>
+    </application>
+
+</manifest>

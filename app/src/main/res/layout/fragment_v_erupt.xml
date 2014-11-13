@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#fffff1c3">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="juanapp.example.com.kaligtasannijuan.vErupt$PlaceholderFragment">
+
+    <TextView
+        android:text="If a Volcano Erupts in Your Area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vErupt_title"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Evacuate only as recommended by authorities to stay clear of lava, mud flows, and flying rocks and debris."
+        android:id="@+id/vErupt_tip1"
+        android:layout_below="@+id/vErupt_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Avoid river areas and low-lying regions."
+        android:id="@+id/vErupt_tip2"
+        android:layout_below="@+id/vErupt_tip1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Before you leave the house, change into long-sleeved shirts and long pants and use goggles or eyeglasses, not contacts. Wear an emergency mask or hold a damp cloth over your face."
+        android:id="@+id/vErupt_tip3"
+        android:layout_below="@+id/vErupt_tip2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- If you are not evacuating, close windows and doors and block chimneys and other vents, to prevent ash from coming into the house."
+        android:id="@+id/vErupt_tip4"
+        android:layout_below="@+id/vErupt_tip3"
+        android:layout_alignLeft="@+id/vErupt_tip3"
+        android:layout_alignStart="@+id/vErupt_tip3"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Be aware that ash may put excess weight on your roof and need to be swept away. Wear protection during cleanups."
+        android:id="@+id/vErupt_tip5"
+        android:layout_below="@+id/vErupt_tip4"
+        android:layout_alignLeft="@+id/vErupt_tip4"
+        android:layout_alignStart="@+id/vErupt_tip4"
+        android:layout_marginTop="23dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Ash can damage engines and metal parts, so avoid driving. If you must drive, stay below 35 miles (56 kilometers) an hour."
+        android:id="@+id/vErupt_tip6"
+        android:textSize="20dp"
+        android:layout_marginTop="26dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_below="@+id/vErupt_tip5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/vErupt_tip6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/source"
+        android:id="@+id/vErupt_source"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp" />
+
+</RelativeLayout>
+</ScrollView>

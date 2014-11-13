@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#fffff1c3">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="juanapp.example.com.kaligtasannijuan.eShaking$PlaceholderFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eShaking_title"
+        android:text="If Shaking Begins"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Drop down; take cover under a desk or table and hold on."
+        android:id="@+id/eShaking_tip1"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/eShaking_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Stay indoors until the shaking stops and you&apos;re sure it&apos;s safe to exit."
+        android:id="@+id/eShaking_tip2"
+        android:layout_below="@+id/eShaking_tip1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Stay away from bookcases or furniture that can fall on you."
+        android:id="@+id/eShaking_tip3"
+        android:layout_below="@+id/eShaking_tip2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Stay away from windows. In a high-rise building, expect the fire alarms and sprinklers to go off during a quake."
+        android:id="@+id/eShaking_tip4"
+        android:layout_below="@+id/eShaking_tip3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- If you are in bed, hold on and stay there, protecting your head with a pillow."
+        android:id="@+id/eShaking_tip5"
+        android:layout_below="@+id/eShaking_tip4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- If you are outdoors, find a clear spot away from buildings, trees, and power lines. Drop to the ground."
+        android:id="@+id/eShaking_tip6"
+        android:layout_below="@+id/eShaking_tip5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- If you are in a car, slow down and drive to a clear place. Stay in the car until the shaking stops."
+        android:id="@+id/eShaking_tip7"
+        android:layout_below="@+id/eShaking_tip6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/source"
+        android:id="@+id/eShaking_source"
+        android:layout_below="@+id/eShaking_tip7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:textSize="15dp" />
+
+</RelativeLayout>
+</ScrollView>
